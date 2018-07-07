@@ -104,6 +104,9 @@
     <ClInclude Include="vertexarray.h">
       <Filter>src\graphics\buffers</Filter>
     </ClInclude>
+    <ClInclude Include="renderable2d.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="basic.vert">

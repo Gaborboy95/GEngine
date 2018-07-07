@@ -1,2 +1,3 @@
-﻿  window.cpp
+﻿  main.cpp
+d:\coding\gengine\gengine-core\main.cpp(89): warning C4305: 'argument': truncation from 'double' to 'const float'
   GEngine-core.vcxproj -> D:\Coding\GEngine\Debug\GEngine-core.exe
