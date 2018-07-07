@@ -1,4 +1,4 @@
 ﻿  main.cpp
-d:\coding\gengine\gengine-core\main.cpp(61): warning C4305: 'argument': truncation from 'double' to 'const float'
-d:\coding\gengine\gengine-core\main.cpp(73): warning C4305: 'argument': truncation from 'double' to 'const float'
-  GEngine-core.vcxproj -> D:\Coding\GEngine\Debug\GEngine-core.exe
+c:\users\peter\source\repos\gengine\gengine-core\main.cpp(33): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\peter\source\repos\gengine\gengine-core\main.cpp(44): warning C4305: 'argument': truncation from 'double' to 'const float'
+  GEngine-core.vcxproj -> C:\Users\peter\source\repos\GEngine\Debug\GEngine-core.exe

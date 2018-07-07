@@ -12,6 +12,7 @@
 
 
 #define DEBUG false
+#define GENGINE_VERSION "0.0.55_pre"
 
 int main()
 {
@@ -19,18 +20,17 @@ int main()
 	using namespace graphics;
 	using namespace maths;
 
-	Window window("GENGINE Prototype V.:0.0.5_pre", 960, 540);
+	Window window("GENGINE Prototype V.: " GENGINE_VERSION, 960, 540);
 
 	mat4 ortho = mat4::orthographic(0.0f, 16.0f, 0.0f, 9.0f, -1.0f, 1.0f);
 
 	Shader shader("basic.vert", "basic.frag");
 	shader.enable();
 	shader.setUniformMat4("pr_matrix", ortho);
-	shader.setUniform4f("colour", vec4(0.2f, 0.3f, 0.8f, 1.0f));
+	shader.setUniformMat4("ml_matrix", mat4::translation(vec3(4, 3, 0)));
 
 	Renderable2D sprite(maths::vec3(5, 5, 0), maths::vec2(4, 4), maths::vec4(1, 0, 1, 1), shader);
 	Renderable2D sprite2(maths::vec3(7, 1, 0), maths::vec2(2, 3), maths::vec4(0.2, 0, 1, 1), shader);
-
 	Simple2DRenderer renderer;
 	
 	while (!window.closed())
