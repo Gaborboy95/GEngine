@@ -122,16 +122,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="buffer.cpp" />
+    <ClCompile Include="indexbuffer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mat4.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="vec2.cpp" />
     <ClCompile Include="vec3.cpp" />
     <ClCompile Include="vec4.cpp" />
+    <ClCompile Include="vertexarray.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="buffer.h" />
     <ClInclude Include="fileutils.h" />
+    <ClInclude Include="indexbuffer.h" />
     <ClInclude Include="mat4.h" />
     <ClInclude Include="maths.h" />
     <ClInclude Include="maths_func.h" />
@@ -139,6 +144,7 @@
     <ClInclude Include="vec2.h" />
     <ClInclude Include="vec3.h" />
     <ClInclude Include="vec4.h" />
+    <ClInclude Include="vertexarray.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>
   <ItemGroup>
