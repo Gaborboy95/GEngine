@@ -1,6 +1,7 @@
 #include "simple2drenderer.h"
 
 namespace gengine {	namespace graphics {
+
 	void Simple2DRenderer::submit(const Renderable2D* renderable)
 	{
 		m_RenderQueue.push_back(renderable);
@@ -19,6 +20,8 @@ namespace gengine {	namespace graphics {
 
 			renderable->getIBO()->unbind();
 			renderable->getVAO()->unbind();
+
+			m_RenderQueue.pop_front();
 		}
 	}
 } }

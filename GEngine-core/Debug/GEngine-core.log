@@ -1,8 +1,4 @@
 ﻿  main.cpp
-d:\coding\gengine\gengine-core\main.cpp(69): error C2259: 'gengine::graphics::Simple2DRenderer': cannot instantiate abstract class
-  d:\coding\gengine\gengine-core\main.cpp(69): note: due to following members:
-  d:\coding\gengine\gengine-core\main.cpp(69): note: 'void gengine::graphics::Renderer2D::submit(gengine::graphics::Renderable2D *)': is abstract
-  d:\coding\gengine\gengine-core\renderer2d.h(12): note: see declaration of 'gengine::graphics::Renderer2D::submit'
-d:\coding\gengine\gengine-core\main.cpp(79): warning C4305: 'argument': truncation from 'double' to 'const float'
-  simple2drenderer.cpp
-  Generating Code...
+d:\coding\gengine\gengine-core\main.cpp(61): warning C4305: 'argument': truncation from 'double' to 'const float'
+d:\coding\gengine\gengine-core\main.cpp(73): warning C4305: 'argument': truncation from 'double' to 'const float'
+  GEngine-core.vcxproj -> D:\Coding\GEngine\Debug\GEngine-core.exe
