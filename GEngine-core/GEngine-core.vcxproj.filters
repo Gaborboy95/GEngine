@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{dbef84ed-7dca-4e2f-a921-4b74a440991e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{0e10a3bd-af96-4984-825e-88c3e5aebc17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\input">
+      <UniqueIdentifier>{2972cbd1-eab7-4b31-ad07-02db83a137d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\maths">
+      <UniqueIdentifier>{ebd7212b-a63a-411d-affb-a220923da2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{26e48c52-cfe7-4251-ad36-a3c4de4b1c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shaders">
+      <UniqueIdentifier>{1ed93025-4043-41b8-843f-29b6ebaec3e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="window.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>src\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="vec4.cpp">
+      <Filter>src\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>src\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="mat4.cpp">
+      <Filter>src\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths_func.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="fileutils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic.vert">
+      <Filter>src\shaders</Filter>
+    </None>
+    <None Include="basic.frag">
+      <Filter>src\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
