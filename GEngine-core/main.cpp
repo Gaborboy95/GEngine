@@ -10,9 +10,8 @@
 #include "renderer2d.h"
 #include "simple2drenderer.h"
 
-
 #define DEBUG false
-#define GENGINE_VERSION "0.0.55_pre"
+#define GENGINE_VERSION "0.0.57_pre"
 
 int main()
 {

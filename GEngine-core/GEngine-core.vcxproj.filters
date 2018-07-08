@@ -69,6 +69,9 @@
     <ClCompile Include="simple2drenderer.cpp">
       <Filter>src\graphics</Filter>
     </ClCompile>
+    <ClCompile Include="batchrenderer2D.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="window.h">
@@ -114,6 +117,9 @@
       <Filter>src\graphics</Filter>
     </ClInclude>
     <ClInclude Include="simple2drenderer.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="batchrenderer2D.h">
       <Filter>src\graphics</Filter>
     </ClInclude>
   </ItemGroup>

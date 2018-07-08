@@ -122,6 +122,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="batchrenderer2D.cpp" />
     <ClCompile Include="buffer.cpp" />
     <ClCompile Include="indexbuffer.cpp" />
     <ClCompile Include="main.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="batchrenderer2D.h" />
     <ClInclude Include="buffer.h" />
     <ClInclude Include="fileutils.h" />
     <ClInclude Include="indexbuffer.h" />
