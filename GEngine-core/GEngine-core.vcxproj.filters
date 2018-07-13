@@ -72,6 +72,12 @@
     <ClCompile Include="batchrenderer2D.cpp">
       <Filter>src\graphics</Filter>
     </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="static_sprite.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="window.h">
@@ -120,6 +126,12 @@
       <Filter>src\graphics</Filter>
     </ClInclude>
     <ClInclude Include="batchrenderer2D.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="static_sprite.h">
       <Filter>src\graphics</Filter>
     </ClInclude>
   </ItemGroup>

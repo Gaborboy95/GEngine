@@ -1,4 +1,2 @@
-﻿  main.cpp
-c:\users\peter\source\repos\gengine\gengine-core\main.cpp(33): warning C4305: 'argument': truncation from 'double' to 'const float'
-c:\users\peter\source\repos\gengine\gengine-core\main.cpp(44): warning C4305: 'argument': truncation from 'double' to 'const float'
-  GEngine-core.vcxproj -> C:\Users\peter\source\repos\GEngine\Debug\GEngine-core.exe
+﻿  batchrenderer2D.cpp
+  GEngine-core.vcxproj -> D:\Coding\GEngine\Debug\GEngine-core.exe

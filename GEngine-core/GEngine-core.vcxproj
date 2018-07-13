@@ -129,6 +129,8 @@
     <ClCompile Include="mat4.cpp" />
     <ClCompile Include="simple2drenderer.cpp" />
     <ClCompile Include="shader.cpp" />
+    <ClCompile Include="sprite.cpp" />
+    <ClCompile Include="static_sprite.cpp" />
     <ClCompile Include="vec2.cpp" />
     <ClCompile Include="vec3.cpp" />
     <ClCompile Include="vec4.cpp" />
@@ -147,6 +149,8 @@
     <ClInclude Include="renderer2d.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="simple2drenderer.h" />
+    <ClInclude Include="sprite.h" />
+    <ClInclude Include="static_sprite.h" />
     <ClInclude Include="vec2.h" />
     <ClInclude Include="vec3.h" />
     <ClInclude Include="vec4.h" />

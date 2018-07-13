@@ -18,14 +18,17 @@ namespace gengine { namespace graphics {
 	{
 	private:
 		GLuint m_VAO;
+		GLuint m_VBO;
+		VertexData* m_Buffer;
 		IndexBuffer* m_IBO;
 		GLsizei m_IndexCount;
-		GLuint m_VBO;
 
 	public:
 		BatchRenderer2D();
 		~BatchRenderer2D();
+		void begin();
 		void submit(const Renderable2D* renderable) override;
+		void end();
 		void flush() override;
 	private:
 		void init();
