@@ -31,7 +31,7 @@ int main()
 	Shader shader("basic.vert", "basic.frag");
 	shader.enable();
 	shader.setUniformMat4("pr_matrix", ortho);
-	shader.setUniformMat4("ml_matrix", mat4::translation(vec3(4, 3, 0)))
+	shader.setUniformMat4("ml_matrix", mat4::translation(vec3(4, 3, 0)));
 	shader.setUniform4f("colour", vec4(0.1f, 1.0f, 0.1f, 1.0f));
 
 #if BATCH_RENDERER
